@@ -4,12 +4,15 @@ import CareerGoalsPage from "./pages/CareerGoalsPage";
 import ExtraInfoPage from "./pages/ExtraInfoPage";
 import ResumePage from "./pages/ResumePage";
 import Route from "./components/Route";
+import PageHeader from "./components/PageHeader";
 
 
 function App() {
-    return <div>
+    return <div className="text-center">
+        <PageHeader />
+    <div className="container  grid-cols-4 gap-4 mt-4 flex   ">
         <Sidebar />
-        <div className="col-span-5">
+        <div className="col-span-4 text-center items-center w-full">
             <Route path="/">   
                 <AboutMePage />
             </Route>
@@ -22,6 +25,7 @@ function App() {
                 <ExtraInfoPage />
             </Route>
         </div>
+    </div>
     </div>
 }
 

@@ -4,7 +4,7 @@ function Sidebar(){
     const links = [
         {label: 'About Me', path: '/'},
         {label: 'Resume',path: '/resume'},
-        {label: 'Career Goals',path: '/career'},
+        {label: 'Other Projects',path: '/other-proj'},
         {label: 'Extra Info About This Project',path: '/extra-info'},
     ];
 

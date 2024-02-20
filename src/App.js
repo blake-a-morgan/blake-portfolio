@@ -1,10 +1,11 @@
 import Sidebar from "./components/Sidebar";
 import AboutMePage from "./pages/AboutMePage";
-import CareerGoalsPage from "./pages/CareerGoalsPage";
+import OtherProjects from "./pages/OtherProjects";
 import ExtraInfoPage from "./pages/ExtraInfoPage";
 import ResumePage from "./pages/ResumePage";
 import Route from "./components/Route";
 import PageHeader from "./components/PageHeader";
+
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
             <Route path="/resume">
                 <ResumePage />
             </Route>
-            <Route path="/career"><CareerGoalsPage />
+            <Route path="/other-proj"><OtherProjects />
             </Route>
             <Route path="/extra-info">
                 <ExtraInfoPage />

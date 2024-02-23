@@ -1,6 +1,6 @@
 
 function ResumePage(){
-    return <div className=" items-center bg-gray-300">
+    return <div className="pr-5 pl-5 items-center bg-gray-300">
         <h2 className="items-center text-2xl">Resume:</h2>
         <p>This will update every time I update it live.</p>
         <div className="flex items-center justify-center">

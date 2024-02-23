@@ -16,7 +16,7 @@ function Sidebar(){
     });
 
     return (
-        <div className="bg-gray-300 sticky top-0 flex overflow-y-auto flex-col items-start border-4 border-black ">
+        <div className="bg-gray-300 sticky pl-2 pr-5 top-0 flex overflow-y-auto flex-col items-start border-4 border-black ">
             {renderedLinks}
         </div>
     )

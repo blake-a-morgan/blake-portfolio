@@ -11,9 +11,11 @@ import PageHeader from "./components/PageHeader";
 function App() {
     return <div className="text-center">
         <PageHeader />
-    <div className="container  grid-cols-4 gap-4 mt-4 flex   ">
+        <div className="float-start ">
+    <div className="float-left  grid-cols-4 gap-4 mt-4    ">
         <Sidebar />
-        <div className="col-span-4 text-center items-center w-full">
+        </div>
+        <div className="container pt-3 float-right col-span-4 text-center items-center w-auto pl-5 ">
             <Route path="/">   
                 <AboutMePage />
             </Route>
@@ -26,7 +28,8 @@ function App() {
                 <ExtraInfoPage />
             </Route>
         </div>
-    </div>
+        </div>
+    
     </div>
 }
 

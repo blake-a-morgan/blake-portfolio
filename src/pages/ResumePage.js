@@ -1,9 +1,11 @@
 
 function ResumePage(){
-    return <div className=" bg-gray-300">
-        <h2 className="text-2xl">Resume:</h2>
-        <p>This will update every time I update it live</p>
-        <iframe title="Resume" height={1620} width={1080} src="https://docs.google.com/document/d/1C7nrSqRPDRoUKG7BvYBsOeeCVPuHXjmo" alt="My resume" />
+    return <div className=" items-center bg-gray-300">
+        <h2 className="items-center text-2xl">Resume:</h2>
+        <p>This will update every time I update it live.</p>
+        <div className="flex items-center justify-center">
+            <iframe className="items-center justify-center" title="Resume" height={1620} width={1080} src="https://docs.google.com/document/d/1C7nrSqRPDRoUKG7BvYBsOeeCVPuHXjmo" alt="My resume" />
+        </div>
     </div>
 }
 

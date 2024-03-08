@@ -1,4 +1,4 @@
-import cert from '../files/Blake-cert.jpg'
+import cert from '../files/Blake-cert.jpg';
 
 function AboutMePage(){
     return <div className="pr-5 pl-5 text-2xl bg-gray-300 ">
